@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+  anubis_auth_chickensclan.org:
+    build: .
+
+    container_name: anubis_auth_chickensclan.org
+    ports:
+      - 6060:5000 #      # FOR ACCESS TO BBDD LOCALY    
